@@ -4,12 +4,12 @@ import java.util.Scanner;
 
 public class MainMenu {
     
-  private EmployeeDetails employeeDetails;
+    private EmployeeDetails EmployeeDetails;
     private Attendance attendance;
     private Payroll payroll;
 
     public MainMenu(EmployeeDetails employeeDetails, Attendance attendance, Payroll payroll) {
-        this.employeeDetails = employeeDetails;
+        this.EmployeeDetails = employeeDetails;
         this.attendance = attendance;
         this.payroll = payroll;
     }
@@ -17,7 +17,7 @@ public class MainMenu {
     public void showEmployeeDetailsMenu() {
         
         System.out.println("Redirecting to Employee Details...");
-        employeeDetails.main(null); // To call the EmployeeDetails class
+        EmployeeDetails.main(null); // To call the EmployeeDetails class
     }
 
     public void showAttendanceMenu() {

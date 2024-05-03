@@ -9,7 +9,7 @@ public class EmployeeDetails {
         System.out.print("Enter Employee ID Number: ");
         String inputEmployeeNumber = scanner.nextLine();
         
-        // You can now use inputEmployeeNumber for further processing
+        
     }
     
 }
