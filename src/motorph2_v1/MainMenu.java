@@ -23,7 +23,7 @@ public class MainMenu {
     public void showAttendanceMenu() {
         
         System.out.println("Redirecting to Attendance...");
-        Attendance.main(null); // To call the EmployeeDetails class
+        Attendance.main(null); // To call the Attendance class
     }
 
     public void showPayrollMenu() {
@@ -70,7 +70,7 @@ public class MainMenu {
                         return; // exit the main method
                     }
                     break;
-    default:
+        default:
         System.out.println("Invalid option");
 }
         //to break the loop in the main menu after encoding an option, if we want to put back the loop, remove this.
