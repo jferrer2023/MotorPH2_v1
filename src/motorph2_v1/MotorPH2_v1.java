@@ -16,17 +16,24 @@
 
         System.out.print("Enter password: ");
         String inputPassword = scanner.nextLine();
-
+        
+        //to access the Login Class
         UserLogin userLogin = new UserLogin(inputUsername, inputPassword);
 
         System.out.println("Authenticating...");
-        if (userLogin.authenticate()) {
+        
+        //authenticate() method defined in UserLogin class. This method is to verify if the username and password matched
+        if (userLogin.authenticate()) { 
             System.out.println("Authentication successful");
+            
+            //to access the Employee, Attendance, Payroll Class
             EmployeeDetails employeeDetails = new EmployeeDetails();
             Attendance attendance = new Attendance();
             Payroll payroll = new Payroll();
             MainMenu mainMenu = new MainMenu(employeeDetails, attendance, payroll);
-            mainMenu.main(args); // Call the main menu's main method
+            
+            mainMenu.main(args); //To call the MainMenu class after login
+            
         } else {
             System.out.println("Authentication failed");
         }

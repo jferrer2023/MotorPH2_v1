@@ -11,14 +11,15 @@ public class UserLogin {
         this.password = password;
     }
 
+    /*
     public String getUsername() {
         return username;
     }
-
     public String getPassword() {
         return password;
     }
-
+    */
+    
     public boolean authenticate() {
         return this.username.equals("user1") && this.password.equals("123");
     }
