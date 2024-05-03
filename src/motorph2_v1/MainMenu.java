@@ -17,7 +17,7 @@ public class MainMenu {
     public void showEmployeeDetailsMenu() {
         
         System.out.println("Redirecting to Employee Details...");
-        employeeDetails.main(null); // Call the main method of EmployeeDetails class
+        employeeDetails.main(null); // To call the EmployeeDetails class
     }
 
     public void showAttendanceMenu() {
