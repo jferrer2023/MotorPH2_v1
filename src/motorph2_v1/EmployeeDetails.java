@@ -26,9 +26,7 @@ public class EmployeeDetails {
     public float clothingAllowance;
     public float hourlyRate;
 
-    public void storePersonalInfo(Info info) {
-        
-    }
+   
 
     public Info readPersonalInfo(String employeeId) {
         
