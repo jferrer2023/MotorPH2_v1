@@ -52,11 +52,11 @@ public class EmployeeDetails {
                     this.status = tokens[10];
                     this.position = tokens[11];
                     this.immediateSupervisor = tokens[12];
-                    this.basicSalary = float.parseDouble(tokens[13]);
-                    this.riceSubsidy = float.parseDouble(tokens[14]);
-                    this.phoneAllowance = float.parseDouble(tokens[15]);
-                    this.clothingAllowance = float.parseDouble(tokens[16]);
-                    this.hourlyRate = float.parseDouble(tokens[17]);
+                    this.basicSalary = Float.parseFloat(tokens[13]);
+                    this.riceSubsidy = Float.parseFloat(tokens[14]);
+                    this.phoneAllowance = Float.parseFloat(tokens[15]);
+                    this.clothingAllowance = Float.parseFloat(tokens[16]);
+                    this.hourlyRate = Float.parseFloat(tokens[17]);
                     return new Info(); // Return an instance of Info with the retrieved data
                 }
             }
