@@ -73,7 +73,8 @@ public class MainMenu {
         default:
         System.out.println("Invalid option");
 }
-        //to break the loop in the main menu after encoding an option, if we want to put back the loop, remove this.
+        //to break the loop in the main menu after encoding an option
+        //if we want to put back the loop, remove this.
         if (option == 1) {
         break;
             }
